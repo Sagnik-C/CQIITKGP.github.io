@@ -966,10 +966,10 @@ hr {
 }
 @media screen and (max-width: 580px){
     .panel-heading{
-        transform: translateX(0);
+        transform: translateX(-2px);
     }
     .accordion-section .panel-default .panel-body {
-        transform: translateX(0);
+        transform: translateX(-2px);
     }
     .accordion-section .panel-default .panel-title a{
         font-size: 1.1rem;
@@ -979,7 +979,11 @@ hr {
     }
     #faqimg{
         position: relative;
-        left: 0;
+        left: -4px;
+    }
+    .faq_heading{
+        position: relative;
+        left: -5px;
     }
 }
 /* Preloader */
